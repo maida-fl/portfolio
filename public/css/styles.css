@@ -14,3 +14,104 @@ body {
   color: #ffffff;
   font-weight: 400;
 }
+.main-title {
+  font-family: "Urbanist", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+body li {
+  list-style: none;
+}
+
+/* HEADER  */
+.main-header {
+  background-color: #1c1d20;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.main-nav {
+  display: flex;
+  min-height: 8vh;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 5rem 2rem;
+  /* flex-wrap: wrap; */
+}
+.main-nav a {
+  color: #ffffff;
+}
+/* .logo {
+  flex: 7 1 20rem;
+}
+.right-nav {
+  display: flex;
+  flex: 1 1 20rem;
+  justify-content: space-between;
+} */
+
+.logo {
+  width: 50%;
+}
+.right-nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.right-nav li {
+  padding-left: 11rem;
+}
+/* MAIN */
+main {
+  /* position: absolute;
+  top: 0px; */
+  width: 100%;
+}
+#main {
+  min-height: 92vh;
+  background: linear-gradient(180deg, #1c1d20 0%, rgba(0, 22, 24, 0.84) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 178px;
+}
+.main-title {
+  font-size: 8.6rem;
+  font-weight: 400;
+  letter-spacing: 0.69rem;
+}
+.main-sub {
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.37rem;
+  margin-top: 20px;
+  margin-bottom: 93px;
+}
+
+.btn-main {
+  margin-top: 10px;
+  padding: 1rem 5.3rem;
+  color: #97ead2;
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  border: 1px solid #97ead2;
+  background: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn-main:hover {
+  background: #97ead2;
+  color: rgba(31, 31, 31, 0.95);
+}
