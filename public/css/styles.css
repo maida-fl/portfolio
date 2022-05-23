@@ -122,3 +122,16 @@ main {
   background: #97ead2;
   color: rgba(31, 31, 31, 0.95);
 }
+
+.noise::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  opacity: 0.03;
+  z-index: 1000;
+  pointer-events: none;
+  background: url("/img/home/noise.gif");
+}
