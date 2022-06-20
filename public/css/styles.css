@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* FONTS */
@@ -106,7 +107,10 @@ main {
 }
 #main {
   min-height: 100vh;
-  background: linear-gradient(180deg, #1c1d20 0%, rgba(0, 22, 24, 0.84) 100%);
+  /* background: linear-gradient(180deg, #1c1d20 0%, rgba(0, 22, 24, 0.84) 300%); */
+  /* background: linear-gradient(45deg, #1c1d20 0%, rgba(0, 22, 24, 0.84) 150%); */
+  background: linear-gradient(30deg, #1c1d20 0%, rgba(0, 22, 24, 0.84) 130%);
+  /* background: #1c1d20; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,17 +137,26 @@ main {
 .btn-main {
   margin-top: 10px;
   padding: 1rem 5.3rem;
-  color: #97ead2;
+  /* color: #97ead2; */
+  /* color: #aaeedb;
+  color: #b5ffe9; */
+  color: #d6fff3;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
-  border: 1px solid #97ead2;
+  /* border: 1px solid #97ead2; */
+  /* border: 1px solid #aaeedb;
+  border: 1px solid #b5ffe9; */
+  border: 1px solid #d6fff3;
   background: none;
   border-radius: 3px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 .btn-main:hover {
-  background: #97ead2;
+  /* background: #97ead2; */
+  /* background: #aaeedb;
+  background: #b5ffe9; */
+  background: #d6fff3;
   color: rgba(31, 31, 31, 0.95);
 }
 
@@ -177,11 +190,14 @@ main {
 .project-container {
   min-height: 690px;
   width: 100%;
-  background-color: #395e61;
+  /* background-color: #395e61; */
+  /* background-color: #578a8e; */
+  background-color: #5a7f82;
+  /* background-color: #709295; */
   margin: 30px 0 0;
   padding: 59px 25px;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  /* flex-direction: column; */
   /* justify-content: center; */
 }
 .project-text-wrapper {
@@ -227,7 +243,7 @@ main {
   opacity: 0.6;
 }
 .btn-project {
-  padding: 1rem 5.3rem;
+  padding: 1rem 4rem;
   color: #ffffff;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
@@ -250,9 +266,22 @@ main {
   opacity: 0.8;
 }
 .technologies img {
-  width: 22px;
+  width: 18px;
   margin-right: 1.7rem;
   object-fit: contain;
+}
+.project-text-wrapper-quotes {
+  width: 55%;
+}
+.project-image-quotes {
+  display: flex;
+  align-items: flex-end;
+  width: 45%;
+}
+.project-image-quotes img {
+  width: 100%;
+  object-fit: cover;
+  padding: 38px;
 }
 
 #about {
@@ -275,4 +304,19 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+footer {
+  background: #1c1d20;
+}
+.copyright {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.copyright p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
